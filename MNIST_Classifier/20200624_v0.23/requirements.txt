@@ -1,0 +1,7 @@
+tensorflow==1.14.0
+numpy<1.17
+openCV-python
+keras
+scikit-learn
+Pillow
+scipy
