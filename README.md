@@ -9,20 +9,20 @@ DFC605-2020S: Final Project Report
    pip install -r requirements.txt
    
 2) 라이브러리 수동설치   
-   pip install openCV-python
-   pip install tensorflow
-   pip install keras
-   pip install scikit-learn
-   pip install Pillow
-   텐서플로 강제 1.14.0 버전설치
-   pip install "numpy<1.17"  넘파이는 1.17 버전이하로
-   텐서플로설치,케라스설치 with 아나콘다
-      첫번째로 콘다, 파이썬 패키지 업데이트부터해준다.
-        conda update -n base conda
-        conda update --all
-      이후에
-        conda install tensorflow
-        conda install keras
+   - pip install openCV-python
+   - pip install tensorflow
+   - pip install keras
+   - pip install scikit-learn
+   - pip install Pillow
+   - 텐서플로 강제 1.14.0 버전설치
+   - pip install "numpy<1.17"  넘파이는 1.17 버전이하로
+   - 텐서플로설치,케라스설치 with 아나콘다
+      -- 첫번째로 콘다, 파이썬 패키지 업데이트부터해준다.
+      ---  conda update -n base conda
+      ---  conda update --all
+      --  이후에
+        --- conda install tensorflow
+        ---conda install keras
    
 2) 한글데이터셋 생성
       - mnist_fonts_to_dataset_csv.py : 한글폰트--> Mnist datasets (csv) , 클래스로 변경 ,레이블 파일 생성
@@ -47,15 +47,12 @@ DFC605-2020S: Final Project Report
       
 
 3) 파일설명
-      MNIST_Classifier.py     실행 main 파일
-      MNIST_Classifier.ui     QT Designer 로 만든 화면
-      mnist_sklearn.py        SKlearn  모델 학습 , 예측
-      mnist_keras.py          Keras    모델 학습 , 예측
-                              mnist_keras_nn.py       Keras    를 이용한 CNN 모델, 예측 배열변환에 주의하자 mnist_keras.py 와 분리 해놓음 테스트를 위해서
-      mnist_tensorflow.py     텐서플로우 모델 학습,예측
-                              tensorflow_cnn_class_model_2.py 텐서플로우_CNN 
-                              cnn_module.py 텐서플로우 cnn class 
-      mnist_fonts_to_dataset_csv.py  : 폰트 -> 이미지, Xtrain_han.csv , ytrain_han.csv , Xtest_han.csv , ytest_han.csv, ylabel_han.csv
+     - MNIST_Classifier.py     실행 main 파일
+     - MNIST_Classifier.ui     QT Designer 로 만든 화면
+     - mnist_sklearn.py        SKlearn  모델 학습 , 예측
+     - mnist_keras.py          Keras    모델 학습 , 예측
+     - mnist_tensorflow.py     텐서플로우 모델 학습,예측
+     - mnist_fonts_to_dataset_csv.py  : 폰트 -> 이미지, Xtrain_han.csv , ytrain_han.csv , Xtest_han.csv , ytest_han.csv, ylabel_han.csv
       
 4) Datasets 
      - sklearn 을 이용하여 데이터셋 저장  ( sklearn 의 버그가 있어서. 비추천)
