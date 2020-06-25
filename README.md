@@ -62,4 +62,3 @@ DFC605-2020S: Final Project Report
      - Keras   을 이용하여 데이터셋 저장  (Keras.mnist.load()를 써서 사용 잘됨)
      - tensorflow 을 이용하여 데이터셋 저장 (input_data.read_data_sets 사용 )
      - mnist_train.csv , mnist_test.csv 를 직접읽어서 처리가 가능토록 (이게 잘됨)
-        https://github.com/AI-Soft-Dev/DFC605_AI_GRP_01/blob/master/01.Datasets/Datasets_mnist_number.zip 여기서 받아서 압축풀것
