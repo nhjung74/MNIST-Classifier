@@ -62,3 +62,9 @@ DFC605-2020S: Final Project Report
      - Keras   을 이용하여 데이터셋 저장  (Keras.mnist.load()를 써서 사용 잘됨)
      - tensorflow 을 이용하여 데이터셋 저장 (input_data.read_data_sets 사용 )
      - mnist_train.csv , mnist_test.csv 를 직접읽어서 처리가 가능토록 (이게 잘됨)
+     
+5) 학습 후 이미지 예측 (손글씨)
+![mnist_classifier_CNN_hand_ga](https://user-images.githubusercontent.com/59309187/85803723-c3648e00-b782-11ea-8d11-48c7e3655347.png)
+
+5) 학습 후 이미지 예측 (폰트)
+![mnist_classifier_CNN_128_ga](https://user-images.githubusercontent.com/59309187/85803736-cc555f80-b782-11ea-914c-35e8a5639e62.png)
