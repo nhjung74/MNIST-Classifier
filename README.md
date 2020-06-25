@@ -25,7 +25,7 @@ DFC605-2020S: Final Project Report
      conda install keras
    
 2) 한글데이터셋 생성
-      - mnist_ttf_to_png_v10.py : 한글폰트--> Mnist datasets (csv) , 클래스로 변경 ,레이블 파일 생성
+      - mnist_fonts_to_dataset_csv.py : 한글폰트--> Mnist datasets (csv) , 클래스로 변경 ,레이블 파일 생성
          ./fonts_train : Train용 font   
          ./fonts_test  : Test용 font    
            테스트용 폰트 : https://hangeul.naver.com/2017/nanum
@@ -55,7 +55,7 @@ DFC605-2020S: Final Project Report
       mnist_tensorflow.py     텐서플로우 모델 학습,예측
                               tensorflow_cnn_class_model_2.py 텐서플로우_CNN 
                               cnn_module.py 텐서플로우 cnn class 
-      mnist_ttf_to_png_v10.py  : 폰트 -> 이미지, Xtrain_han.csv , ytrain_han.csv , Xtest_han.csv , ytest_han.csv, ylabel_han.csv
+      mnist_fonts_to_dataset_csv.py  : 폰트 -> 이미지, Xtrain_han.csv , ytrain_han.csv , Xtest_han.csv , ytest_han.csv, ylabel_han.csv
       
 4) Datasets 
      - sklearn 을 이용하여 데이터셋 저장  ( sklearn 의 버그가 있어서. 비추천)
