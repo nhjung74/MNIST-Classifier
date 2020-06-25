@@ -26,24 +26,24 @@ DFC605-2020S: Final Project Report
    
 2) 한글데이터셋 생성
       - mnist_fonts_to_dataset_csv.py : 한글폰트--> Mnist datasets (csv) , 클래스로 변경 ,레이블 파일 생성
-         ./fonts_train : Train용 font   
-         ./fonts_test  : Test용 font    
-           테스트용 폰트 : https://hangeul.naver.com/2017/nanum
-         ./Hangul_Syllables_train : Train 폰트를 읽어와서 Syllable 단위로 image 를 생성되는 폴더
-         ./Hangul_Syllables_test  : Test  폰트를 읽어와서 Syllable 단위로 image 를 생성되는 폴더
-         ./Xtrain.csv 학습용 한글 mnist파일 (이미지정보)
-         ./ytrain.csv 학습용 한글 mnist파일 (폰트)
-         ./Xtest.csv 테스트용 한글 mnist파일 (이미지정보)
-         ./ytest.csv 테스트용 한글 mnist파일 (폰트)
-         ./ylabel.csv 한글 label 파일 (레이블코드값, 음절 로 구성됨)
-         ./Ztrain_han_64X64.csv     mnist_train.csv 와 유사한 형태 64*64 ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
-         ./Ztest_han_64X64.csv     mnist_test.csv 와 유사한 형태 64*64  ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
-         ./Ztrain_han_46X46.csv     mnist_train.csv 와 유사한 형태 46*46 ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
-         ./Ztest_han_46X46.csv     mnist_test.csv 와 유사한 형태 46*46  ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
-         ./Ztrain_han_28X28.csv     mnist_train.csv 와 유사한 형태 28*28 ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
-         ./Ztest_han_28X28.csv     mnist_test.csv 와 유사한 형태 28*28  ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
+      - ./fonts_train : Train용 font   
+      - ./fonts_test  : Test용 font    
+      - 테스트용 폰트 : https://hangeul.naver.com/2017/nanum
+      - ./Hangul_Syllables_train : Train 폰트를 읽어와서 Syllable 단위로 image 를 생성되는 폴더
+      - ./Hangul_Syllables_test  : Test  폰트를 읽어와서 Syllable 단위로 image 를 생성되는 폴더
+      - ./Xtrain.csv 학습용 한글 mnist파일 (이미지정보)
+      - ./ytrain.csv 학습용 한글 mnist파일 (폰트)
+      - ./Xtest.csv 테스트용 한글 mnist파일 (이미지정보)
+      - ./ytest.csv 테스트용 한글 mnist파일 (폰트)
+      - ./ylabel.csv 한글 label 파일 (레이블코드값, 음절 로 구성됨)
+      - ./Ztrain_han_64X64.csv     mnist_train.csv 와 유사한 형태 64*64 ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
+      - ./Ztest_han_64X64.csv     mnist_test.csv 와 유사한 형태 64*64  ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
+      - ./Ztrain_han_46X46.csv     mnist_train.csv 와 유사한 형태 46*46 ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
+      - ./Ztest_han_46X46.csv     mnist_test.csv 와 유사한 형태 46*46  ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
+      - ./Ztrain_han_28X28.csv     mnist_train.csv 와 유사한 형태 28*28 ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
+      - ./Ztest_han_28X28.csv     mnist_test.csv 와 유사한 형태 28*28  ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
             
-         https://hangeul.naver.com/2017/nanum
+      - 한글나눔폰트  https://hangeul.naver.com/2017/nanum
       
 
 3) 파일설명
