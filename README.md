@@ -58,16 +58,15 @@ MNIST Classifier
       - ./Xtest.csv 테스트용 한글 mnist파일 (이미지정보)
       - ./ytest.csv 테스트용 한글 mnist파일 (폰트)
       - ./ylabel.csv 한글 label 파일 (레이블코드값, 음절 로 구성됨)
-      - ./Ztrain_han_128X128.csv     mnist_train.csv 와 유사한 형태 128x128 ( 첫번째가 ylabel , 나머지 128x128 (16384) 개의 X이미지로 구성됨 )
-      - ./Ztest_han_128X128.csv     mnist_test.csv 와 유사한 형태 128x128  ( 첫번째가 ylabel , 나머지 128x128 (16384) 개의 X이미지로 구성됨 )
-      - ./Ztrain_han_64X64.csv     mnist_train.csv 와 유사한 형태 64x64 ( 첫번째가 ylabel , 나머지 64x64 (4096) 개의 X이미지로 구성됨 )
-      - ./Ztest_han_64X64.csv     mnist_test.csv 와 유사한 형태 64x64  ( 첫번째가 ylabel , 나머지 64x64 (4096) 개의 X이미지로 구성됨 )
-      - ./Ztrain_han_46X46.csv     mnist_train.csv 와 유사한 형태 46x46 ( 첫번째가 ylabel , 나머지 46x46 (2116) 개의 X이미지로 구성됨 )
-      - ./Ztest_han_46X46.csv     mnist_test.csv 와 유사한 형태 46x46  ( 첫번째가 ylabel , 나머지 46x46 (2116) 개의 X이미지로 구성됨 )
-      - ./Ztrain_han_28X28.csv     mnist_train.csv 와 유사한 형태 28x28 ( 첫번째가 ylabel , 나머지 28x28 (784) 개의 X이미지로 구성됨 )
-      - ./Ztest_han_28X28.csv     mnist_test.csv 와 유사한 형태 28x28  ( 첫번째가 ylabel , 나머지 28x28 (784) 개의 X이미지로 구성됨 )
-            
-      - 한글나눔폰트  https://hangeul.naver.com/2017/nanum
+      - 아래 파일들은 mnist_train.csv와 유사한 형태의 파일들이다.
+      - ./Ztrain_han_128X128.csv     첫번째가 ylabel , 나머지 128x128 (16384) 개의 X이미지로 구성됨 
+      - ./Ztest_han_128X128.csv      첫번째가 ylabel , 나머지 128x128 (16384) 개의 X이미지로 구성됨 
+      - ./Ztrain_han_64X64.csv      첫번째가 ylabel , 나머지 64x64 (4096) 개의 X이미지로 구성됨 
+      - ./Ztest_han_64X64.csv       첫번째가 ylabel , 나머지 64x64 (4096) 개의 X이미지로 구성됨 
+      - ./Ztrain_han_46X46.csv     첫번째가 ylabel , 나머지 46x46 (2116) 개의 X이미지로 구성됨 
+      - ./Ztest_han_46X46.csv      첫번째가 ylabel , 나머지 46x46 (2116) 개의 X이미지로 구성됨 
+      - ./Ztrain_han_28X28.csv      첫번째가 ylabel , 나머지 28x28 (784) 개의 X이미지로 구성됨 
+      - ./Ztest_han_28X28.csv      첫번째가 ylabel , 나머지 28x28 (784) 개의 X이미지로 구성됨 
       
       
 5) Datasets 
@@ -81,3 +80,10 @@ MNIST Classifier
 
 7) 학습 후 이미지 예측 (폰트)
 ![mnist_classifier_CNN_128_ga](https://user-images.githubusercontent.com/59309187/85803736-cc555f80-b782-11ea-914c-35e8a5639e62.png)
+
+
+8) 참고사이트
+   -  https://hangeul.naver.com/2017/nanum  한글나눔폰트
+   -  http://www.unicode.org/charts/PDF/UAC00.pdf 한글Unicode
+   -  https://pjreddie.com/media/files/mnist_train.csv  MNIST in CSV 숫자(0~9)필기체 train set 
+   -  https://pjreddie.com/media/files/mnist_test.csv   MNIST in CSV 숫자(0~9)필기체 test set
