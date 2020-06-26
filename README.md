@@ -23,13 +23,14 @@ MNIST Classifier
    - pip install Pillow
    - 텐서플로 강제 1.14.0 버전설치
    - pip install "numpy<1.17"  넘파이는 1.17 버전이하로
+  
    - 텐서플로설치,케라스설치 with 아나콘다
-      -- 첫번째로 콘다, 파이썬 패키지 업데이트부터해준다.
-      ---  conda update -n base conda
-      ---  conda update --all
-      --  이후에
-        --- conda install tensorflow
-        ---conda install keras
+   - 첫번째로 콘다, 파이썬 패키지 업데이트부터해준다.
+   -  conda update -n base conda
+   -  conda update --all
+   - 이후에
+   -  conda install tensorflow
+   -  conda install keras
 
 4) 파일/폴더 설명
      - MNIST_Classifier.py           : main program
