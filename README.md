@@ -10,10 +10,10 @@ MNIST Classifier
 
 * 환경 및 프로그램 설명 
 1) 개발 및 테스트환경
-   Intel(R) Core(TM) i5-4570S CPU @ 2.90GHz , RAM8GB, MS Windows 10
+    - Intel(R) Core(TM) i5-4570S CPU @ 2.90GHz , RAM8GB, MS Windows 10
    
 2) 필요라이브러리
-   pip install -r requirements.txt
+    - pip install -r requirements.txt
    
 3) 라이브러리 수동설치   
    - pip install openCV-python
