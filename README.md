@@ -1,10 +1,10 @@
 ## MNIST-Classifier
 MNIST Classifier
 
-DFC605-2020S: Final Project Report 
+* DFC605-2020S: Final Project Report 
 
 
-
+* 환경 및 프로그램 설명 
 1) 필요라이브러리
    pip install -r requirements.txt
    
@@ -23,8 +23,26 @@ DFC605-2020S: Final Project Report
       --  이후에
         --- conda install tensorflow
         ---conda install keras
-   
-2) 한글데이터셋 생성
+
+3) 파일/폴더 설명
+     - MNIST_Classifier.py           : main program
+     - MNIST_Classifier.ui           : QT Designer 로 만든 화면
+     - mnist_sklearn.py              : SKlearn  모델 학습 , 예측
+     - mnist_keras.py                : Keras    모델 학습 , 예측
+     - mnist_tensorflow.py           : 텐서플로우 모델 학습,예측
+     - mnist_fonts_to_dataset_csv.py : 폰트 -> 이미지 -> Xtrain_han.csv , ytrain_han.csv , Xtest_han.csv , ytest_han.csv, ylabel_han.csv
+     - ./savemodels                  : 모델별 학습결과 저장폴더
+     - ./mnist_data                  : mnist 관련데이터 저장폴더 , csv 파일이 생정또는 저장됨
+     - ./mnist_data/mnist_train.csv  : 학습시킬 숫자 mnist csv 파일
+     - ./mnist_data/mnist_test.csv   : 테스트시킬 숫자 mnist csv 파일
+     - ./mnist_data/fonts_train      : 학습시킬 unicode font 를 보관
+     - ./mnist_data/fonts_test       : 테스트시킬 unicode font 를 보관
+     - ./mnist_data/labels                      
+     - ./mnist_data/labels/common-hangul.csv   : unicode font 중 학습시킬 글자정의: 가 ~ 하
+     - ./mnist_data/Hangul_Syllables_test  : 데이터셋 생성후 생성 (테스트용 폰트이미지 저장)
+     - ./mnist_data/Hangul_Syllables_train : 데이터셋 생성후 생성 (학습용 폰트이미지 저장)
+
+4) 한글데이터셋 생성
       - mnist_fonts_to_dataset_csv.py : 한글폰트--> Mnist datasets (csv) , 클래스로 변경 ,레이블 파일 생성
       - ./fonts_train : Train용 font   
       - ./fonts_test  : Test용 font    
@@ -47,23 +65,15 @@ DFC605-2020S: Final Project Report
             
       - 한글나눔폰트  https://hangeul.naver.com/2017/nanum
       
-
-3) 파일설명
-     - MNIST_Classifier.py     실행 main 파일
-     - MNIST_Classifier.ui     QT Designer 로 만든 화면
-     - mnist_sklearn.py        SKlearn  모델 학습 , 예측
-     - mnist_keras.py          Keras    모델 학습 , 예측
-     - mnist_tensorflow.py     텐서플로우 모델 학습,예측
-     - mnist_fonts_to_dataset_csv.py  : 폰트 -> 이미지, Xtrain_han.csv , ytrain_han.csv , Xtest_han.csv , ytest_han.csv, ylabel_han.csv
       
-4) Datasets 
+5) Datasets 
      - sklearn 을 이용하여 데이터셋 저장  ( sklearn 의 버그가 있어서. 비추천)
      - Keras   을 이용하여 데이터셋 저장  (Keras.mnist.load()를 써서 사용 잘됨)
      - tensorflow 을 이용하여 데이터셋 저장 (input_data.read_data_sets 사용 )
      - mnist_train.csv , mnist_test.csv 를 직접읽어서 처리가 가능토록 (이게 잘됨)
      
-5) 학습 후 이미지 예측 (손글씨)
+6) 학습 후 이미지 예측 (손글씨)
 ![mnist_classifier_CNN_hand_ga](https://user-images.githubusercontent.com/59309187/85803723-c3648e00-b782-11ea-8d11-48c7e3655347.png)
 
-5) 학습 후 이미지 예측 (폰트)
+7) 학습 후 이미지 예측 (폰트)
 ![mnist_classifier_CNN_128_ga](https://user-images.githubusercontent.com/59309187/85803736-cc555f80-b782-11ea-914c-35e8a5639e62.png)
