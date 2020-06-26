@@ -36,12 +36,14 @@ DFC605-2020S: Final Project Report
       - ./Xtest.csv 테스트용 한글 mnist파일 (이미지정보)
       - ./ytest.csv 테스트용 한글 mnist파일 (폰트)
       - ./ylabel.csv 한글 label 파일 (레이블코드값, 음절 로 구성됨)
-      - ./Ztrain_han_64X64.csv     mnist_train.csv 와 유사한 형태 64*64 ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
-      - ./Ztest_han_64X64.csv     mnist_test.csv 와 유사한 형태 64*64  ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
-      - ./Ztrain_han_46X46.csv     mnist_train.csv 와 유사한 형태 46*46 ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
-      - ./Ztest_han_46X46.csv     mnist_test.csv 와 유사한 형태 46*46  ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
-      - ./Ztrain_han_28X28.csv     mnist_train.csv 와 유사한 형태 28*28 ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
-      - ./Ztest_han_28X28.csv     mnist_test.csv 와 유사한 형태 28*28  ( 첫번째가 ylabel , 나머지 64*64 (4096) 개의 X이미지로 구성됨 )
+      - ./Ztrain_han_128X128.csv     mnist_train.csv 와 유사한 형태 128x128 ( 첫번째가 ylabel , 나머지 128x128 (16384) 개의 X이미지로 구성됨 )
+      - ./Ztest_han_128X128.csv     mnist_test.csv 와 유사한 형태 128x128  ( 첫번째가 ylabel , 나머지 128x128 (16384) 개의 X이미지로 구성됨 )
+      - ./Ztrain_han_64X64.csv     mnist_train.csv 와 유사한 형태 64x64 ( 첫번째가 ylabel , 나머지 64x64 (4096) 개의 X이미지로 구성됨 )
+      - ./Ztest_han_64X64.csv     mnist_test.csv 와 유사한 형태 64x64  ( 첫번째가 ylabel , 나머지 64x64 (4096) 개의 X이미지로 구성됨 )
+      - ./Ztrain_han_46X46.csv     mnist_train.csv 와 유사한 형태 46x46 ( 첫번째가 ylabel , 나머지 46x46 (2116) 개의 X이미지로 구성됨 )
+      - ./Ztest_han_46X46.csv     mnist_test.csv 와 유사한 형태 46x46  ( 첫번째가 ylabel , 나머지 46x46 (2116) 개의 X이미지로 구성됨 )
+      - ./Ztrain_han_28X28.csv     mnist_train.csv 와 유사한 형태 28x28 ( 첫번째가 ylabel , 나머지 28x28 (784) 개의 X이미지로 구성됨 )
+      - ./Ztest_han_28X28.csv     mnist_test.csv 와 유사한 형태 28x28  ( 첫번째가 ylabel , 나머지 28x28 (784) 개의 X이미지로 구성됨 )
             
       - 한글나눔폰트  https://hangeul.naver.com/2017/nanum
       
