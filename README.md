@@ -3,6 +3,9 @@ MNIST Classifier
 
 * DFC605-2020S: Final Project Report 
 
+* 메인화면
+![mnist_classifier_01](https://user-images.githubusercontent.com/59309187/85819989-3cc6a580-b7b0-11ea-89fa-6a4e12e744fd.png)
+
 
 * 환경 및 프로그램 설명 
 1) 필요라이브러리
