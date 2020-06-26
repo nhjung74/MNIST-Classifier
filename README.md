@@ -9,10 +9,13 @@ MNIST Classifier
 
 
 * 환경 및 프로그램 설명 
-1) 필요라이브러리
+1) 개발 및 테스트환경
+   Intel(R) Core(TM) i5-4570S CPU @ 2.90GHz , RAM8GB, MS Windows 10
+   
+2) 필요라이브러리
    pip install -r requirements.txt
    
-2) 라이브러리 수동설치   
+3) 라이브러리 수동설치   
    - pip install openCV-python
    - pip install tensorflow
    - pip install keras
@@ -28,7 +31,7 @@ MNIST Classifier
         --- conda install tensorflow
         ---conda install keras
 
-3) 파일/폴더 설명
+4) 파일/폴더 설명
      - MNIST_Classifier.py           : main program
      - MNIST_Classifier.ui           : QT Designer 로 만든 화면
      - mnist_sklearn.py              : SKlearn  모델 학습 , 예측
@@ -46,7 +49,7 @@ MNIST Classifier
      - ./mnist_data/Hangul_Syllables_test  : 데이터셋 생성후 생성 (테스트용 폰트이미지 저장)
      - ./mnist_data/Hangul_Syllables_train : 데이터셋 생성후 생성 (학습용 폰트이미지 저장)
 
-4) 한글데이터셋 생성
+5) 한글데이터셋 생성
       - mnist_fonts_to_dataset_csv.py : 한글폰트--> Mnist datasets (csv) , 클래스로 변경 ,레이블 파일 생성
       - ./fonts_train : Train용 font   
       - ./fonts_test  : Test용 font    
@@ -68,20 +71,20 @@ MNIST Classifier
       - ./Ztest_han_28X28.csv      첫번째가 ylabel , 나머지 28x28 (784) 개의 X이미지로 구성됨 
       
       
-5) Datasets 
+6) Datasets 
      - sklearn 을 이용하여 데이터셋 저장  ( sklearn 의 버그가 있어서. 비추천)
      - Keras   을 이용하여 데이터셋 저장  (Keras.mnist.load()를 써서 사용 잘됨)
      - tensorflow 을 이용하여 데이터셋 저장 (input_data.read_data_sets 사용 )
      - mnist_train.csv , mnist_test.csv 를 직접읽어서 처리가 가능토록 (이게 잘됨)
      
-6) 학습 후 이미지 예측 (손글씨)
+7) 학습 후 이미지 손글씨 예측 
 ![mnist_classifier_CNN_hand_ga](https://user-images.githubusercontent.com/59309187/85803723-c3648e00-b782-11ea-8d11-48c7e3655347.png)
 
-7) 학습 후 이미지 예측 (폰트)
+8) 학습 후 이미지 폰트이미지 예측
 ![mnist_classifier_CNN_128_ga](https://user-images.githubusercontent.com/59309187/85803736-cc555f80-b782-11ea-914c-35e8a5639e62.png)
 
 
-8) 참고사이트
+9) 참고사이트
    -  https://hangeul.naver.com/2017/nanum  한글나눔폰트
    -  http://www.unicode.org/charts/PDF/UAC00.pdf 한글Unicode
    -  https://pjreddie.com/media/files/mnist_train.csv  MNIST in CSV 숫자(0~9)필기체 train set 
