@@ -50,7 +50,6 @@ MNIST Classifier
       - mnist_fonts_to_dataset_csv.py : 한글폰트--> Mnist datasets (csv) , 클래스로 변경 ,레이블 파일 생성
       - ./fonts_train : Train용 font   
       - ./fonts_test  : Test용 font    
-      - 테스트용 폰트 : https://hangeul.naver.com/2017/nanum
       - ./Hangul_Syllables_train : Train 폰트를 읽어와서 Syllable 단위로 image 를 생성되는 폴더
       - ./Hangul_Syllables_test  : Test  폰트를 읽어와서 Syllable 단위로 image 를 생성되는 폴더
       - ./Xtrain.csv 학습용 한글 mnist파일 (이미지정보)
